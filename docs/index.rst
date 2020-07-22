@@ -64,6 +64,7 @@ sphere.
 .. code:: python
 
     import pyvista as pv
+
     from pyvistaqt import BackgroundPlotter
 
     sphere = pv.Sphere()

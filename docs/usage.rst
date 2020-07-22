@@ -22,6 +22,7 @@ and functions like a normal PyVista ``Plotter`` instance.  For example:
 .. code:: python
 
     import pyvista as pv
+
     from pyvistaqt import BackgroundPlotter
 
     sphere = pv.Sphere()
@@ -43,10 +44,10 @@ sphere to an empty plotting window.
 
     import sys
 
-    from PyQt5 import Qt
     import numpy as np
-
     import pyvista as pv
+    from PyQt5 import Qt
+
     from pyvistaqt import QtInteractor
 
     class MainWindow(Qt.QMainWindow):
